@@ -13,7 +13,7 @@ class Sidebar extends React.Component {
     this.props.onSelect(index)
   }
   render() {
-    const { files, selectedFileIndex, onAdd } = this.props;
+    const { files, selectedFileIndex } = this.props;
 
     return (
       <ul className="sidebar">

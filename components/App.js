@@ -39,7 +39,7 @@ class App extends React.Component {
     actions.addFile();
   }
   handleRemove(ev) {
-    ev.preventDefault()
+    ev.preventDefault();
     const { selectedFileIndex } = this.state;
     actions.removeFile(selectedFileIndex);
     this.setState({ selectedFileIndex: 0 });
