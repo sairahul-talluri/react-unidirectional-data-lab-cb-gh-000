@@ -11,7 +11,7 @@
 In this lab we're going to practice modularizing component architectures by
 building a note taking application.
 
-This is how it's going to look like:
+This is what it's going to look like:
 
 ![Screenshot](assets/screenshot.png)
 
@@ -54,8 +54,8 @@ Our users can edit the file by entering text into the `<textarea />`.
 ### `<Toolbar />`
 
 On the top, we can see a toolbar. The `<Toolbar />` component contains two
-buttons. When a user click on the "Add note" button, a new file is being added
-to the end of the `fileStore`. When a user clicks the "Remove note" button, the
+buttons. When a user click on the "Add note" button, a new file is added to the
+end of the `fileStore`. When a user clicks the "Remove note" button, the
 currently selected file should be deleted from the `fileStore`.
 
 There should always be at least one file in the sidebar. If the user attempts to
