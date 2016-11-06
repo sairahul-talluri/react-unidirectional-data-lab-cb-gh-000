@@ -14,7 +14,7 @@ describe('<Sidebar />', function() {
     });
   });
 
-  it('should render ol', function() {
+  it('should render ul', function() {
     const wrapper = shallow(<Sidebar files={[]} />);
     expect(wrapper.type()).toBe('ul');
   });
