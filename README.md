@@ -13,11 +13,11 @@ building a note taking application.
 
 This is what it's going to look like:
 
-![Screenshot](assets/screenshot.png)
+![Screenshot](https://s3.amazonaws.com/learn-verified/react-unidirectional-data-lab-screenshot.png)
 
 ## Components
 
-![Screenshot Components](assets/screenshot-components.png)
+![Screenshot Components](https://s3.amazonaws.com/learn-verified/react-unidirectional-data-lab-screenshot-components.png)
 
 Our application consists of a couple of components that we're going to implement
 as part of this lab. As usual, the tests will guide us while building them out.

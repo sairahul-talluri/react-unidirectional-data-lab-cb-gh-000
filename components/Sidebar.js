@@ -4,6 +4,7 @@ const React = require('react');
 const SidebarItem = require('./SidebarItem');
 
 class Sidebar extends React.Component {
+
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
@@ -29,6 +30,7 @@ class Sidebar extends React.Component {
             />
           ))
         }
+
       </ul>
     );
   }

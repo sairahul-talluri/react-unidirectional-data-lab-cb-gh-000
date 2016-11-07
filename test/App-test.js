@@ -18,11 +18,26 @@ describe('<App />', function() {
     sandbox.restore();
   });
 
+  describe('state.files', function() {
+    it('should be empty array', function() {
+      const wrapper = shallow(<App />);
+      expect(wrapper.state('files')).toEqual(['']);
+    });
+  });
+
+  describe('state.selectedFileIndex', function() {
+    it('should be 0', function() {
+      const wrapper = shallow(<App />);
+      expect(wrapper.state('selectedFileIndex')).toBe(0);
+    });
+  });
+
   describe('when component did mount', function() {
     it('should add listener', function() {
       const wrapper = mount(<App />);
       sinon.assert.calledOnce(fileStore.addListener);
       sinon.assert.calledWithMatch(fileStore.addListener, sinon.match.func);
+
     });
   });
 
@@ -49,10 +64,4 @@ describe('<App />', function() {
     });
   });
 
-  describe('state.selectedFileIndex', function() {
-    it('should be 0', function() {
-      const wrapper = shallow(<App />);
-      expect(wrapper.state('selectedFileIndex')).toBe(0);
-    });
-  });
 });

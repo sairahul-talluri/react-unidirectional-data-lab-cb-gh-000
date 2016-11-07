@@ -1,6 +1,7 @@
 'use strict';
 
 class Store {
+
   constructor(initialState) {
     this.state = initialState;
     this.listeners = [];
@@ -25,6 +26,7 @@ class Store {
   getState() {
     return this.state;
   }
+
 }
 
 module.exports = Store;

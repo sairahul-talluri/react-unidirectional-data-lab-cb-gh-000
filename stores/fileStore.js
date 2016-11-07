@@ -25,9 +25,4 @@ class FileStore extends Store {
   }
 }
 
-module.exports = new FileStore([
-  'Bulbasaur',
-  'Ivysaur',
-  'Venusaur',
-  'Wartortle',
-]);
+module.exports = new FileStore(['']);
