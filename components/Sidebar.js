@@ -1,9 +1,9 @@
 'use strict'
 
-const React = require('react');
-const SidebarItem = require('./SidebarItem');
+import React from 'react';
+import SidebarItem from './SidebarItem';
 
-class Sidebar extends React.Component {
+export default class Sidebar extends React.Component {
 
   constructor(props) {
     super(props);
@@ -35,5 +35,3 @@ class Sidebar extends React.Component {
     );
   }
 }
-
-module.exports = Sidebar;

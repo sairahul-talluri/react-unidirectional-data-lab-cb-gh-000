@@ -1,7 +1,7 @@
 'use strict'
 
-const React = require('react');
-const classNames = require('classnames');
+import React from 'react';
+import classNames from 'classnames';
 
 // Find first non-empty line and use as title.
 const getTitle = file =>
@@ -17,4 +17,4 @@ const SidebarItem = ({ file = '', isSelected, onClick }) => (
   </li>
 );
 
-module.exports = SidebarItem;
+export default SidebarItem;

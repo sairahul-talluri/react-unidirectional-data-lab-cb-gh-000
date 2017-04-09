@@ -1,7 +1,7 @@
 'use strict'
 
-const React = require('react');
-const Toolbar = require('./Toolbar');
+import React from 'react';
+import Toolbar from './Toolbar';
 
 const FileView = ({
   file,
@@ -23,4 +23,4 @@ const FileView = ({
   </div>
 );
 
-module.exports = FileView;
+export default FileView;

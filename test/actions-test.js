@@ -1,7 +1,7 @@
 'use strict';
 
-const actions = require('../actions');
-const fileStore = require('../stores/fileStore');
+import actions from '../actions';
+import fileStore from '../stores/fileStore';
 
 describe('actions', function() {
   afterEach(function() {

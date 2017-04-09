@@ -1,6 +1,6 @@
 'use strict'
 
-const React = require('react');
+import React from 'react';
 
 const Toolbar = ({ onAdd, onRemove }) => (
   <nav className="toolbar">
@@ -10,4 +10,4 @@ const Toolbar = ({ onAdd, onRemove }) => (
   </nav>
 );
 
-module.exports = Toolbar;
+export default Toolbar;

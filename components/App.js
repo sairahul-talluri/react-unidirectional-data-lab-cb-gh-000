@@ -1,14 +1,14 @@
 'use strict'
 
-const React = require('react');
-const Sidebar = require('./Sidebar');
-const FileView = require('./FileView');
+import React from 'react';
+import Sidebar from './Sidebar';
+import FileView from './FileView';
 
-const fileStore = require('../stores/fileStore');
-const actions = require('../actions');
+import fileStore from '../stores/fileStore';
+import actions from '../actions';
 
-class App extends React.Component {
-  
+export default class App extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -72,5 +72,3 @@ class App extends React.Component {
     );
   }
 }
-
-module.exports = App;

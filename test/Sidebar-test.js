@@ -1,10 +1,10 @@
 'use strict';
 
-const React = require('react');
-const { shallow, mount } = require('enzyme');
-const sinon = require('sinon');
+import React from 'react';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
 
-const Sidebar = require('../components/Sidebar');
+import Sidebar from '../components/Sidebar';
 
 describe('<Sidebar />', function() {
   context('when files prop is an empty array', function() {

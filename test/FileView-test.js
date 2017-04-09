@@ -1,11 +1,11 @@
 'use strict';
 
-const React = require('react');
-const { shallow, mount } = require('enzyme');
-const sinon = require('sinon');
+import React from 'react';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
 
-const FileView = require('../components/FileView');
-const Toolbar = require('../components/Toolbar');
+import FileView from '../components/FileView';
+import Toolbar from '../components/Toolbar';
 
 describe('<FileView />', function() {
   it('should be a div', function() {

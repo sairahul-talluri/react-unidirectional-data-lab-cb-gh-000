@@ -1,10 +1,10 @@
 'use strict';
 
-const React = require('react');
-const { shallow, mount } = require('enzyme');
-const sinon = require('sinon');
+import React from 'react';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
 
-const SidebarItem = require('../components/SidebarItem');
+import SidebarItem from '../components/SidebarItem';
 
 describe('<SidebarItem />', function() {
   it('should render li', function() {

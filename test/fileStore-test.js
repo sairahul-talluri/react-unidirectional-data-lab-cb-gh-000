@@ -1,8 +1,8 @@
 'use strict';
 
-const fileStore = require('../stores/fileStore');
+import fileStore from '../stores/fileStore';
 const FileStore = fileStore.constructor;
-const Store = require('../stores/Store');
+import Store from '../stores/Store';
 
 describe('fileStore', function() {
   it('should be an object', function() {
