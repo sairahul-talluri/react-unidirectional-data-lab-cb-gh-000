@@ -18,7 +18,7 @@ const removeFile = (index) => {
 const updateFile = (index, file) => {
 };
 
-export {
+export default {
   addFile,
   removeFile,
   updateFile,

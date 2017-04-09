@@ -1,8 +1,10 @@
 'use strict';
 
-const Store = require('./Store');
+import Store from './Store';
 
 class FileStore {
 }
 
-module.exports = new FileStore([]);
+const fileStore = new FileStore([]);
+
+export default fileStore;

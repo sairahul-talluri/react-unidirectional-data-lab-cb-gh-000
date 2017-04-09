@@ -1,6 +1,4 @@
 'use strict';
 
-class Store {
+export default class Store {
 }
-
-module.exports = Store;
