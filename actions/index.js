@@ -1,6 +1,6 @@
 'use strict';
 
-const fileStore = require('../stores/fileStore');
+import fileStore from '../stores/fileStore';
 
 // Currently those actions are simply updating the fileStore directly, in the
 // future we're going to decouple actions and stores using a so-called
@@ -18,7 +18,7 @@ const removeFile = (index) => {
 const updateFile = (index, file) => {
 };
 
-module.exports = {
+export {
   addFile,
   removeFile,
   updateFile,
