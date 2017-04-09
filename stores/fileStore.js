@@ -1,6 +1,6 @@
 'use strict';
 
-const Store = require('./Store');
+import Store from './Store';
 
 class FileStore extends Store {
   updateFile(index, file) {
@@ -25,4 +25,6 @@ class FileStore extends Store {
   }
 }
 
-module.exports = new FileStore(['']);
+const fileStore = new FileStore(['']);
+
+export default fileStore;
