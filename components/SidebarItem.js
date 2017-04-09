@@ -1,9 +1,9 @@
 'use strict'
 
-const React = require('react');
-const classNames = require('classnames');
+import React from 'react';
+import classNames from 'classnames';
 
-class SidebarItem extends React.Component {
+export default class SidebarItem extends React.Component {
   static getTitle (file) {
     // Find first non-empty line and use as title.
     return file.split('\n').find(line => line.length);
@@ -17,5 +17,3 @@ class SidebarItem extends React.Component {
     );
   }
 }
-
-module.exports = SidebarItem;

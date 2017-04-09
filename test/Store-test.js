@@ -1,7 +1,7 @@
 'use strict';
 
-const Store = require('../stores/Store');
-const sinon = require('sinon');
+import Store from '../stores/Store';
+import sinon from 'sinon';
 
 // Those tests might look familiar... Our base store class looks pretty much the
 // same.

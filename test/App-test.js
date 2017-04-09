@@ -1,11 +1,11 @@
 'use strict';
 
-const React = require('react');
-const { shallow, mount } = require('enzyme');
-const sinon = require('sinon');
+import React from 'react';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
 
-const fileStore = require('../stores/fileStore');
-const App = require('../components/App');
+import fileStore from '../stores/fileStore';
+import App from '../components/App';
 
 describe('<App />', function() {
   const sandbox = sinon.sandbox.create();

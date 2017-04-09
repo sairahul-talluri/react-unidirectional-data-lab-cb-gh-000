@@ -1,6 +1,6 @@
 'use strict'
 
-const React = require('react');
+import React from 'react';
 
 const Toolbar = () => (
   <nav>
@@ -8,5 +8,3 @@ const Toolbar = () => (
     <button>Delete note</button>
   </nav>
 );
-
-module.exports = Toolbar;

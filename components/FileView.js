@@ -1,9 +1,9 @@
 'use strict'
 
-const React = require('react');
-const Toolbar = require('./Toolbar');
+import React from 'react';
+import Toolbar from './Toolbar';
 
-class FileView extends React.Component {
+export default class FileView extends React.Component {
   render() {
     return (
       <div>
@@ -11,5 +11,3 @@ class FileView extends React.Component {
     );
   }
 }
-
-module.exports = FileView;
