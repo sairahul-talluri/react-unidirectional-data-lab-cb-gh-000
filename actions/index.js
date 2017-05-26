@@ -10,12 +10,15 @@ import fileStore from '../stores/fileStore';
 // order to "update" state in some form or another.
 
 const addFile = () => {
+  fileStore.addFile();
 };
 
 const removeFile = (index) => {
+  fileStore.removeFile(index);
 };
 
 const updateFile = (index, file) => {
+  fileStore.updateFile(index, file);
 };
 
 export default {
